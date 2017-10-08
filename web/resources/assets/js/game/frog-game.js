@@ -116,9 +116,9 @@ var game = new Phaser.Game(3000, 600, Phaser.AUTO, 'mygame', { preload: preload,
 
             function update() {
 
-                if(!sound1.isPlaying){
-                    sound1.play();
-                }
+//                if(!sound1.isPlaying){
+//                    sound1.play();
+//                }
 
                 //  Collide the player and the stars with the platforms
                 game.physics.arcade.collide(player, platforms);

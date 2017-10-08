@@ -23,14 +23,14 @@
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="resources/assets/images/ico/apple-touch-icon-72-precomposed.png">
         <link rel="apple-touch-icon-precomposed" href="resources/assets/images/ico/apple-touch-icon-57-precomposed.png">
         
-        <link href="resources/assets/css/css/loader.css" rel="stylesheet" type="text/css">
-        <link href="resources/assets/css/css/normalize.css" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="resources/assets/css/css/font-awesome.min.css">
-        <link href="resources/assets/css/css/style.css" rel="stylesheet" type="text/css"> 
-        <link rel="stylesheet" href="css/fluid-gallery.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+<!--        <link href="resources/assets/css/css/loader.css" rel="stylesheet" type="text/css">
+        <link href="resources/assets/css/css/normalize.css" rel="stylesheet" type="text/css">-->
+<!--        <link rel="stylesheet" href="resources/assets/css/css/font-awesome.min.css">
+        <link href="resources/assets/css/css/style.css" rel="stylesheet" type="text/css"> -->
+<!--        <link rel="stylesheet" href="css/fluid-gallery.css">-->
+<!--        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">-->
         
-        <script src="js/js/jquery.js"></script>
+<!--        <script src="js/js/jquery.js"></script>-->
         <script src="js/game/phaser.min.js" ></script>
         
         
@@ -44,11 +44,11 @@
         
         <!-- JavaScript -->
         <script src="//cdn.jsdelivr.net/phaser/2.2.2/phaser.min.js"></script>
-        <script src="resources/assets/js/js/jquery.js"></script>
+<!--        <script src="resources/assets/js/js/jquery.js"></script>-->
         <script src="resources/assets/js/js/parallax.min.js"></script>
-        <script src="resources/assets/js/js/plugins.js"></script> 
+<!--        <script src="resources/assets/js/js/plugins.js"></script> 
         <script src="resources/assets/js/js/jquery.countdown.min.js"></script> 
-        <script src="resources/assets/js/js/main.js"></script>
+        <script src="resources/assets/js/js/main.js"></script>-->
         
         <!-- script for the mini game -->
  
@@ -64,13 +64,11 @@
         <script type="text/javascript" src="resources/assets/js/main.js"></script>	
         
         
-        <script src="js/js/plugins.js"></script> 
-        <script src="js/js/jquery.countdown.min.js"></script> 
-        <script src="js/js/main.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
-        <script>
+        
+<!--        <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>-->
+<!--        <script>
             baguetteBox.run('.tz-gallery');
-        </script>
+        </script>-->
         <script src="resources/assets/js/game/frog-game.js"></script>
     </body>
 </html>
