@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <display-name>IlusoWeb</display-name>
+  <context-param>
+	<param-name>contextConfigLocation</param-name>
+	<param-value>/WEB-INF/applicationContext.xml</param-value>
+  </context-param>
+	
+  <listener>
+	<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+  </listener>
+  <servlet>
+    <servlet-name>spring-web</servlet-name>
+    <servlet-class>
+         org.springframework.web.servlet.DispatcherServlet
+    </servlet-class>
+    <init-param>
+      <param-name>contextConfigLocation</param-name>
+      <param-value>/WEB-INF/spring-web-servlet.xml</param-value>
+    </init-param>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>spring-web</servlet-name>
+    <url-pattern>*.htm</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>/views/index.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>DonationController</display-name>
+    <servlet-name>DonationController</servlet-name>
+    <servlet-class>com.iluso.controllers.DonationController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DonationController</servlet-name>
+    <url-pattern>/DonationController</url-pattern>
+  </servlet-mapping>
+  <context-param>
+    <param-name>authtoken</param-name>
+    <param-value>AFcWxV21C7fd0v3bYYYRCpSSRl31AMxP84IiyV1EhRksneS5yMobfaMh</param-value>
+  </context-param>
+	
+  <context-param>
+	<param-name>posturl</param-name>
+    <param-value>https://www.sandbox.paypal.com/cgi-bin/webscr</param-value>
+  </context-param>
+	
+  <context-param>
+    <param-name>business</param-name>
+    <param-value>dulaj.san-facilitator@gmail.com</param-value>
+  </context-param>
+	
+  <context-param>
+    <param-name>returnurl</param-name>
+    <param-value>http://localhost:8080/IlusoWeb/success.htm</param-value>
+  </context-param>
+</web-app>
